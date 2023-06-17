@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--end font awesome-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header style="background-image: url('./img/contacto.webp');">
+        <div class="container">
+            <nav>
+                <a class="logos" href="index.html">
+                    <img class="logos" src="img/logo.webp" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Quem Somos</a>
+                    <a href="servico.html">Serviço</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu() ">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Contato</h1>
+                    <p>entre em contato com a nossa equipe</p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <section class="contacto">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4258837039743!2d-60.0218460396108!3d-2.97921963719554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c182261e7ebc9%3A0xa74c2d6984d91d15!2sPosto%20BR!5e0!3m2!1spt-BR!2sbr!4v1684542489343!5m2!1spt-BR!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contacto-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Av. Torquato Tapajós, 1000 - Santa Etelvina, Manaus - AM, 69059-165</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p>testede@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>4002-8922</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-whatsapp"></i>
+                        <p>4002-8922</p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                        <button class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+                 <!--footer-->
+                 <footer class="footer">
+                    <div class="container">
+                        <div>
+                            <a href="https://www.linkedin.com/in/denilson-abdon-354b80186/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://instagram.com/denilson_abdon?igshid=ZDc4ODBmNjlmNQ=="><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://github.com/AbdonOliver"><i class="fa fa-github"></i></a>
+                        </div>
+                        <p>© 2023 | Denilson Abdon Oliveira</p>
+                    </div>
+                </footer>
+                 <!--end footer-->
+        <script src="js/main.js"></script>
+</body>
+</html>
